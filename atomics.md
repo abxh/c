@@ -21,7 +21,7 @@ seems too advanced for me to follow along, and overall it seems to be a huge rab
 So, recently, I looked at [reddit](https://www.reddit.com/r/C_Programming/comments/18djay4/where_can_one_learn_about_std_threads_atomic/).
 Nice, some introductory resources. Let's begin this arduous climb.
 
-I begin by reading a portion of this [concurrency primer](assets.bitbashing.io/papers/concurrency-primer.pdf)... I will need to set up
+I begin by reading a portion of this [concurrency primer](https://assets.bitbashing.io/papers/concurrency-primer.pdf)... I will need to set up
 the basic c/c++ files with <stdatomic.h>/\<atomic\> to get my hands dirty. Beej has a C guide to 
 [this](https://beej.us/guide/bgc/html/split/chapter-atomics.html), and there are a bunch of helpful resources on the reddit post on the c
 programming subreddit. I should also find a related project to do eventually so I don't wander aimlessly, and perhaps this
