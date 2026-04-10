@@ -27,6 +27,7 @@ the basic c/c++ files with <stdatomic.h>/\<atomic\> to get my hands dirty. Beej 
 programming subreddit. I should also find a related project to do eventually so I don't wander aimlessly, and perhaps this
 [project-based-learning-repo](https://github.com/practical-tutorials/project-based-learning) has an interesting idea.
 
-For background info, I watched [Out-of-Order Execution (Tomasulo's Algorithm)](https://www.youtube.com/watch?v=EzEKGlO9w4Y).
+For background info, I watched [Out-of-Order Execution (Tomasulo's Algorithm)](https://www.youtube.com/watch?v=EzEKGlO9w4Y) by BitLemon,
+and [How Hardware Makes Threads Less of a Nightmare](https://www.youtube.com/watch?v=IMceN4_rieo) by Core Dumped.
 
 This is a draft in progress.
