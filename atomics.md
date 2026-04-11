@@ -30,4 +30,9 @@ programming subreddit. I should also find a related project to do eventually so 
 For background info, I watched [Out-of-Order Execution (Tomasulo's Algorithm)](https://www.youtube.com/watch?v=EzEKGlO9w4Y) by BitLemon,
 and [How Hardware Makes Threads Less of a Nightmare](https://www.youtube.com/watch?v=IMceN4_rieo) by Core Dumped.
 
+---
+
+Seems like I need still more background information. The concepts are starting to make sense after I read the primer and Beej's guide to this,
+but aquire/release semantics is still a little unclear. I will watch Herb Sutter's introduction to [this](https://www.youtube.com/watch?v=c1gO9aB9nbs) next.
+
 This is a draft in progress.
