@@ -35,4 +35,8 @@ and [How Hardware Makes Threads Less of a Nightmare](https://www.youtube.com/wat
 Seems like I need still more background information. The concepts are starting to make sense after I read the primer and Beej's guide to this,
 but aquire/release semantics is still a little unclear. I will watch Herb Sutter's introduction to [this](https://www.youtube.com/watch?v=c1gO9aB9nbs) next.
 
+---
+
+Interesting. Lock-free programming doesn't have to exclude the use of mutexes and etc. They can complement them. The compiler and hardware works hard to ensure atomic variables works as they are specified, even if a whole bunch of optimisations are going on in both of them. Formulating lock-free programming in terms of ownership and transactional messages being sent from producers to consumers, no wonder whole programming languages have been built around such concepts. That vaguely reminds me of rust and elixir. I will watch [part 2](https://www.youtube.com/watch?v=CmxkPChOcvw) next.
+
 This is a draft in progress.
