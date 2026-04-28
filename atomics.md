@@ -39,4 +39,14 @@ but aquire/release semantics is still a little unclear. I will watch Herb Sutter
 
 Interesting. Lock-free programming doesn't have to exclude the use of mutexes and etc. They can complement them. The compiler and hardware works hard to ensure atomic variables works as they are specified, even if a whole bunch of optimisations are going on in both of them. Formulating lock-free programming in terms of ownership and transactional messages being sent from producers to consumers, no wonder whole programming languages have been built around such concepts. That vaguely reminds me of rust and elixir. I will watch [part 2](https://www.youtube.com/watch?v=CmxkPChOcvw) next.
 
+---
+
+A few more videos and some days later, I start working on the "histogram" counting problem:
+- https://www.youtube.com/watch?v=5sZo3SrLrGA (MIT lecture on syncronisation on locks)
+- https://www.youtube.com/watch?v=zF4VMombo7U (How Cache Works Inside a CPU)
+- https://www.youtube.com/watch?v=7yrK_9PderQ (Cache hiearchy)
+
+The problem is simple:
+Given an array of numbers and integerk, count the number of 1s, 2s, ..., ks in the array and store them in the bins.
+
 This is a draft in progress.
