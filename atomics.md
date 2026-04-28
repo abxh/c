@@ -44,9 +44,9 @@ Interesting. Lock-free programming doesn't have to exclude the use of mutexes an
 A few more videos and some days later, I start working on the "histogram" counting problem:
 - https://www.youtube.com/watch?v=5sZo3SrLrGA (MIT lecture on syncronisation on locks)
 - https://www.youtube.com/watch?v=zF4VMombo7U (How Cache Works Inside a CPU)
-- https://www.youtube.com/watch?v=7yrK_9PderQ (Cache hiearchy)
+- https://www.youtube.com/watch?v=7yrK_9PderQ (CPU Cache hiearchy)
 
 The problem is simple:
-Given an array of numbers and integerk, count the number of 1s, 2s, ..., ks in the array and store them in the bins.
+Given an array of numbers and integer `k`, count the number of `0`s, `1`s, ..., `k-1`s in the array and store them in the bins.
 
 This is a draft in progress.
